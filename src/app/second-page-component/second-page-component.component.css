@@ -1,0 +1,66 @@
+#bookYourRide {
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Cardo', serif;
+}
+#bookYourRide .col-md-12 {
+    text-align: center;
+    padding: 30px;
+}
+
+
+#bookYourRide span {
+    position: absolute;
+}
+.col-md-6{
+    padding: 0;
+}
+
+.item-wrap {
+    position: relative;
+    border: 1px solid black;
+    border-left:0;
+    border-right:0;
+}
+.item-wrap table>tbody>tr>td{
+    font-size:16px;
+}
+
+.item-wrap button{
+    margin:10px;
+    font-size:16px;
+}
+button.left{
+    float:left;
+}
+button.right{
+    float:right;
+}
+
+#bookYourRide .left-align {
+    float: left;
+    bottom: 0;
+    left: 0;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+#bookYourRide .right-align {
+    float: right;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    padding-right: 5px;
+    padding:2px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#bookYourRide p {
+    text-align: center;
+    padding: 70px;
+}
+
+.row{
+    background: radial-gradient(white, grey);
+}

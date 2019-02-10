@@ -1,0 +1,44 @@
+.what-foryou-wrap h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size:25px;
+    font-family: 'Cardo', serif;
+}
+
+.whats-in-content{
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 20px/100px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cardo', serif;
+}
+
+.whats-in-content p{
+    font-size: 20px;
+}
+img{
+    max-height:500px;
+}
+
+h2{
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.what-foryou-wrap{
+    background-color: #463030c9;
+}
+
+.row{
+    background: radial-gradient(white, grey);
+}
+
+p{
+    text-align: center;
+}

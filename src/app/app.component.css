@@ -1,0 +1,137 @@
+.header-component {
+    height: 63px;
+    max-height: 100px;
+    padding: 0px;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+.menu-content ul {
+    display: table;
+    width: 100%;
+    padding: 0px;
+    justify-content: space-between;
+    margin-left: -1px;
+    background-color: #68676471;
+    height: 62px;
+}
+
+.menu-content li {
+    display: table-cell;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding-bottom: 0;
+    font-family: 'Cardo', serif;
+}
+
+.menu-content li>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+.animateMenu{
+    opacity: 1;
+    animation: fade 2s linear;
+}
+@keyframes fade {
+    0%{ opacity: 0 }
+    100% { opacity: 1 }
+  }
+.active .a {
+    color: white !important;
+}
+
+.menu-toggle{
+    padding: 20px;
+}
+
+#mainMenu {
+    font-size: 16px;
+    text-align: center;
+}
+
+button {
+    border: 1px solid black;
+    margin: 1px;
+    font-size: 11px;
+    border-radius: 10px;
+}
+
+#mainMenu a {
+    color: black;
+    text-decoration: none
+}
+
+#mainMenu a:hover {
+    text-decoration: none
+}
+
+.sidenav::-webkit-scrollbar {
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1111111111;
+    top: 0;
+    left: 0;
+    background-color: #282828;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 90px;
+}
+
+.sidenav .menu {
+    position: absolute;
+    top: 45px;
+    margin-left: 28px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sidenav hr {
+    border-top: 1px #282828 solid;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.side-menu a {
+    padding: 17px 20px 17px 28px;
+    display: block;
+    color: #767676;
+    font-size: 16px;
+    font-weight: 300;
+    border-bottom: 1px #333 solid;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 36px;
+    right: 25px;
+    padding: 0px 6px 0px 6px;
+    margin-left: 50px;
+    color: #888;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+.right{
+    border: 2px solid white;
+    margin-left:auto; 
+    margin-right:0;
+    width:120px;
+    height: 60px;
+}
+
+.row{
+    position: -webkit-sticky;
+    
+}

@@ -1,0 +1,16 @@
+.item{
+    text-align: center;
+    padding: 50px;
+    font-family: 'Cardo', serif;
+}
+.text-center p{
+    font-size:17px;
+}
+
+.container-fluid{
+    font-family: 'Cardo', serif;
+}
+
+.item active{
+    background: radial-gradient(white, grey);
+}

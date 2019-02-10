@@ -1,0 +1,32 @@
+.footer-wrap {
+    border: 1px solid black;
+    min-height: 200px;
+    flex: 1;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Cardo', serif;
+}
+
+.footer-wrap .row {
+    text-align: center;
+}
+.footer-wrap ul{
+    padding: 0;
+}
+.footer-wrap .row .footer-content ul>li{
+   list-style: none;
+}
+
+.footer-heading {
+    font-size: 15px;
+    text-decoration:underline;
+    color: rgb(217, 220, 223);
+}
+
+.footer-content {
+    font-size: 12px;
+    color: rgb(187, 173, 173);
+}
+
+a{
+    color: rgb(94, 208, 243);
+}

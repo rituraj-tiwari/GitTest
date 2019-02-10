@@ -1,0 +1,19 @@
+.main-heading{
+    padding: 30px;
+    font-family: 'Cardo', serif;
+}
+
+.item-wrap{
+    border-top: 1px solid black;
+}
+
+.item-heading{
+    font-size:20px;
+    float:right;
+    font-family: 'Cardo', serif;
+}
+
+.row{
+    background: radial-gradient(white, grey);
+    padding: 20px;
+}

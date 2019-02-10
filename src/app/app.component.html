@@ -1,0 +1,58 @@
+<div class="container-fluid header-component">
+    <div class="row">
+        <div class="menu-toggle">
+            <a href="javascript:void(0)" onclick="openNav()"><img src="assets/menuicon.png"></a>
+        </div>
+        <div style="padding:10px;padding-right:60px; ">
+            <a href="javascript:void(0)"><img src="assets/ARC_Logo.png" height="30" /></a>
+        </div>
+
+        <div class="right">
+            <div>
+                <button class="btn btn-default">
+                    Signup
+                </button><br />
+                <button class="btn btn-default">
+                    Login
+                </button>
+            </div>
+            <div class="menu-toggle">
+                <button>
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid header-component menu-wrap">
+    <div class="menu-content">
+        <ul>
+            <li [ngClass]="{'active':activeClass == 1}" (click)="MenuSelector($event,1)"><a class="a" href="javascript:void(0)">Home</a></li>
+            <li [ngClass]="{'active':activeClass == 2}" (click)="MenuSelector($event,2)"><a class="a" href="javascript:void(0)">Book
+                    your motorcycle</a></li>
+            <li [ngClass]="{'active':activeClass == 3}" (click)="MenuSelector($event,3)"><a class="a" href="javascript:void(0)">Battery
+                    motor controller sale</a></li>
+            <li [ngClass]="{'active':activeClass == 4}" (click)="MenuSelector($event,4)"><a class="a" href="javascript:void(0)">Info</a></li>
+        </ul>
+    </div>
+</div>
+<div id="mySidenav" class="sidenav" style="left: -240px; width: 240px;">
+    <a href="javascript:void(0)" class="menu">MENU</a> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <hr>
+    <ul class="side-menu">
+        <!-- <li><a href="index.php">Home</a></li> -->
+        <li><a href="javascript:void(0)">About Us</a></li>
+        <li><a href="javascript:void(0)">Technology Stack</a></li>
+        <li><a href="javascript:void(0)">Investors</a></li>
+        <li><a href="javascript:void(0)">Contact us</a></li>
+        <li><a href="javascript:void(0)">Blogs</a></li>
+        <li><a href="javascript:void(0)">Media</a></li>
+        <li><a href="javascript:void(0)">Careers</a></li>
+    </ul>
+</div>
+
+<app-whatisinforyou [ngClass]="{'animateMenu':activeMenu == 1}" *ngIf="activeMenu == 1"></app-whatisinforyou>
+<app-second-page-component [ngClass]="{'animateMenu':activeMenu == 2}" *ngIf="activeMenu == 2"></app-second-page-component>
+<app-third-page-component [ngClass]="{'animateMenu':activeMenu == 3}" *ngIf="activeMenu == 3"></app-third-page-component>
+<app-forth-page-component [ngClass]="{'animateMenu':activeMenu == 4}" *ngIf="activeMenu == 4"></app-forth-page-component>
+<app-footer-component></app-footer-component>
